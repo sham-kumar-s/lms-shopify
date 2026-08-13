@@ -1,0 +1,19 @@
+client_id = "496288e11c2f717689f8491abb0e380c"
+application_url = "https://example.com"
+embedded = true
+name = "LMS App"
+
+[access_scopes]
+scopes = ""
+optional_scopes = []
+use_legacy_install_flow = false
+
+[auth]
+redirect_urls = []
+
+[build]
+include_config_on_deploy = true
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2026-07"
