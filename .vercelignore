@@ -1,0 +1,13 @@
+# Don't ignore node_modules/@prisma/client - needed for runtime
+!node_modules/@prisma/client
+
+# Ignore development files
+.env.local
+.env.development
+*.log
+.cache
+.react-router
+
+# Ignore shopify dev files
+.shopify/*
+!.shopify/project.json
